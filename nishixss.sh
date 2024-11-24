@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# Automatically remove Windows line endings (\r)
+if [[ -f "$0" ]]; then
+  # Remove Windows line endings before running the script
+  sed -i 's/\r//' "$0"
+fi
+
 # Default payload file
 payload_file="nishi_xss.txt"
 
